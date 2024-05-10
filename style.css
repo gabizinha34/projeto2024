@@ -1,34 +1,15 @@
-<link rel="stylesheet" href="style.css">
-:root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
-}
-:root {
-    --cor-base: #ff6347;
-  }
-  :root {
-    --cor-fundo: #CCCCCC;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-<h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-.titulo-principal span {
-  color: var(--verde);
+:root {
+  --cor-de-fundo: #1E1E1E;
+  --verde: #6FFF57;
+  --branco: #FFFFFF;
+  --botao-ativo: #3A375E;
+  --botao-inativo: rgba(58, 55, 94, 0.5);
+  --texto-fundo: rgba(58, 55, 94, 0.3);
 }
-.botao {
-  font-family: "Crakra Petch", sans-serif;
-  background-color: var(--botao-inativo);
+body {
+  background-color: var(--cor-de-fundo);
   color: var(--branco);
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-  font-size: 18px;
-  align-items: center;
-  width: 100%;
-  border-bottom: 4px solid var(--botao-ativo); 
-  border-left: 2px solid var(--botao-ativo); 
-  border-right: 2px solid var(--botao-ativo); 
-  border-top: none;
+  font-family: 'Chakra Petch', sans-serif;
+}
